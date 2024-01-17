@@ -1,4 +1,20 @@
 header{
     text-align: center;
     font-size: 1.25vw;
+    background-color: #a6a6a6;
+}
+.fruit-mix{
+    width: 11.375vw;
+    height: auto;
+}
+
+.mixed-fruit-desc{
+    font-size: 1.25vw;
+    color: #696969;
+}
+
+.bg-green{
+    background-color: #ADFF00;
+    display: flex;
+    align-items: center;
 }
