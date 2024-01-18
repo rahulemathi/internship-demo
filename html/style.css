@@ -2,6 +2,10 @@ header{
     text-align: center;
     font-size: 1.25vw;
     background-color: #a6a6a6;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .fruit-mix{
     width: 11.375vw;
@@ -13,8 +17,53 @@ header{
     color: #696969;
 }
 
-.bg-green{
+.section-1{
     background-color: #ADFF00;
     display: flex;
     align-items: center;
 }
+
+.fruits3 img{
+    width: 100px;
+    height: auto;
+}
+
+.fruits3 {
+    display: flex;
+    justify-content:space-around;
+    background-color: #ADFF00;
+}
+
+.main{
+    display: flex;
+}
+
+.fruit-1{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+    background-color: #CDFF64;
+}
+
+
+aside > h1{
+    font-size: 1.25vw;
+    text-align: center;
+}
+
+aside > ul > li{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #a6a6a6;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
