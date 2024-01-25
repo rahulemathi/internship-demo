@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+      .skills img{
+        width: 50px;
+      }
+    </style>
   </head>
   <body>
 
@@ -34,20 +40,108 @@
 
     <div class="container-fluid" style="background-color: #16BEBB;">
       <div class="row">
-        <div class="col-7 d-flex flex-column align-self-center">
+        <div class="col-sm-12 col-md-7 d-flex flex-column align-self-center">
           <p>Meet</p>
           <h1>Rahul E Mathi</h1>
           <p>The Fullstack Developer </p>
           <p>Hi, I'm a full stack developer with 3.5 years of experience in web development. I have a strong command over both front-end and back-end technologies, allowing me to build complete and scalable applications.</p>
         </div>
-        <div class="col-5">
+        <div class="col-sm-12 col-md-5 ">
           <img class="img-fluid mx-auto d-block" src="images/rahul.png" alt="rahul">
         </div>
       </div>
     </div>
 
+    <div class="container">
+      <div class="row">
+        <!-- column 1  -->
+        <div class="col-sm-12 col-md-12">
+          <h1 class="text-center">skills</h1>
+        </div>
+        <!-- column 1 -->
+
+        <!-- column 2  -->
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <table class="table skills">
+                <tr>
+                  <th>Front End</th>
+                </tr>
+
+                <tr>
+                  <td>HTML</td>
+                  <td><img src="./images/icons/icons8-html.svg" alt="html"></td>
+                </tr>
+
+                <tr>
+                  <td>CSS</td>
+                  <td><img src="./images/icons/icons8-css.svg" alt="css"></td>
+                </tr>
+                <tr>
+                  <td>Javascript</td>
+                  <td><img src="./images/icons/icons8-javascript.svg" alt="javascript"></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <table class="table skills">
+                <tr>
+                  <th>Back End</th>
+                </tr>
+    
+                <tr>
+                  <td>PHP</td>
+                  <td><img src="./images/icons/new-php-logo.svg" alt="php"></td>
+                </tr>
+    
+                <tr>
+                  <td>MySQL</td>
+                  <td><img src="./images/icons/icons8-mysql.svg" alt="MySQL"></td>
+                </tr>
+                <tr>
+                  <td>Javascript</td>
+                  <td><img src="./images/icons/icons8-javascript.svg" alt="javascript"></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
+          <div class="card-body">
+            <table class="table skills">
+              <tr>
+                <th>CSS Framework</th>
+              </tr>
+  
+              <tr>
+                <td>Bootstrap</td>
+                <td><img src="./images/icons/icons8-bootstrap.svg" alt="bootstrap"></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
     
   
+<div class="container-fluid bg-primary text-center text-white">
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
+      <footer>
+        <p>&copy; 2024 all rights reserved by rahul</p>
+      </footer>
+    </div>
+  </div>
+</div>
 
 
 
